@@ -1,0 +1,12 @@
+root:x:0:0:root:/root:/bin/bash
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+colord:x:112:123:colord colour management daemon,,,:/var/lib/colord:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:/bin/false
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+kernoops:x:115:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+hplip:x:114:7:HPLIP system user,,,:/var/run/hplip:/bin/false

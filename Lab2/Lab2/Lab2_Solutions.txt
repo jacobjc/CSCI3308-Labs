@@ -1,0 +1,37 @@
+Andrea Chamorro
+Jacob Christiansen
+
+1.)A.) diff scene1_v1.txt scene1_v2.txt
+
+B.) Arrows are "pointing" to whichever file the line is from (< is first file
+and > is second file).
+
+C.) Prints out the new text, puts an exclaimation mark next to the changed lines
+
+2.)A.) grep -n pigeon scene1_v1.txt
+
+B.) diff scene1_v1.txt scene1_v2.txt | grep "^<"
+
+3.)A.) cut -d ':' -f 1 scene_v1.txt
+
+B.) diff scene1_v1.txt scene1_v2.txt | cut -d ':' -f 1 
+
+4.)A.) uniq -d scene1_v1.txt
+
+B.) diff scene1_v1.txt scene1_v2.txt | sort | cut -d ':' -s -f1 | uniq -c -d -s1
+
+5.)A.)1.) sed 's/[a-zA-Z]//g' cryptic.txt
+
+2.) sed 's/[0-9]'/_/g' cryptic.txt
+
+B.) sed 's/[4]'/a/g' cryptic.txt | sed 's/[3]'/e/g' cryptic.txt | sed 's/[1]'/i/g' cryptic.txt | sed 's/[0]'/o/g' cryptic.txt | sed 's/[5]'/s/g' cryptic.txt | sed 's/[7]'/t/g' cryptic.txt
+
+6.)A.) egrep '[0-9]{3}-[0-9]{3}-[0-9]{4}' regex_practice_data.txt
+ 770 phone numbers total
+
+B.) egrep '303-441-[0-9]{4}'
+ 51 Boulder phone numbers
+
+7.)A.) awk '{if (NR > 1) {print $6/$2}}' pizzaOrders.txt
+
+B.)awk 'BEGIN{{sumCheese = 0} {sumTotal = 0}} {if(NR > 1) {sumCheese += $5} {sumTotal += $2}} END{{print sumCheese/sumTotal}}' pizzaOrders.txt

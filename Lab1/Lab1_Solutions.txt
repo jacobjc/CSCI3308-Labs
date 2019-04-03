@@ -1,0 +1,67 @@
+Andrea Chamorro
+Jacob Christiansen
+
+1.) cd Desktop
+mkdir cs3308
+
+2.) mv cs3308 CSCI3308_205
+
+3.) unzip Lab\ Materials.zip
+
+4.) ls -a
+Yes, secret.txt
+
+5.) ls -S -l
+
+6.) mkdir tinyData
+cp majesticRalphie.png tinyData/
+cd ..
+cd textFiles/
+ls -S -l
+cp aliceinwonderland.txt ../images/tinyData
+cd ..
+cd tinyData
+du -h
+280Kb
+
+7.) zip -r tinydata.zip tinyData/
+ls -s -l
+172.091Kb
+
+8.) tar -cvf tinydata.tar tinyData/
+286.72Kb
+
+9.) rm -r tinyData/
+rm tinydata.zip
+
+10.) tar -xvf tinydata.tar
+It created a new folder called 'tinyData' containing the contents of tinydata.tar
+
+11.) unzip little1.zip
+uzip little2.zip
+little1.zip contains 2 files, little2.zip contains a folder, containing those
+two files
+
+12.) find . -name taget.txt
+dir: ./emptyFolders/13/target.txt
+
+13.) touch MyShortStory.txt
+head -n 5 aliceinwonderland.txt >> MyShortStory.txt
+tail -n 5 dracula.txt >> MyShortStory.txt
+
+----------------------------------------------
+Step 5:
+
+1.) sort -k 1 password_demo.txt
+
+2.) sort -k 4 password_demo.txt
+
+3.) cat password_demo.txt
+
+4.) wc -w password_demo.txt
+
+5.)sort -k 3 -u password_demo.txt
+
+6.) sort -k 3 -u password_demo.txt >> tmp
+
+7.) wc -l tmp >> getUniqueGID.sh

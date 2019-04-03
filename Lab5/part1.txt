@@ -1,0 +1,48 @@
+Part 1
+Jacob Christiansen
+
+1. background-color: red;
+Have it assigned only to specific div, not all divs (#div1 p{background-color: COLOR;})
+
+2. 	margin: 10px;
+	padding: 10px;
+Added boarder space around the boxes
+Extended the boxes
+
+3.
+#div1 p{
+	background-color: yellow;
+	margin: 100px;
+	padding: 100px;
+}
+It moves the "1" outside of the bounderies of the box
+
+4. overflow: hidden;
+	overflow: scroll;
+
+	Hidden just hides the extended stuff behind the other divs
+	Scroll allows you to scroll inside of the <p> in div1
+
+5. float: left;
+1, 2, 3 
+float: right;
+3, 2, 1
+
+6. for div1:
+you have 1 box on left, 3,2 boxes on left, all horizontally parallel
+for div2:
+have box 1 on top right, box 3 below it. Box 2 is on the left, shifted down by one
+for div3:
+have box 2,1 on top right, horiztally parallel. Box 3 is on the left, shifted down by one
+
+7. 
+div{
+	float: left; //applies to all div
+}
+#div3{
+	clear: left; //applies to div3
+}
+
+8. <body style="margin: 0px;">
+The boxes shift over a little bit to the left
+This means that the default value is not 0px

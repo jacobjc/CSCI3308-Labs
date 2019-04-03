@@ -1,0 +1,25 @@
+git clone https://github.com/jacobjc/Recitation-3308.git
+git add README.md
+git commit
+git add Sample1.txt Sample2.txt
+git commit
+git tag v0.0.1
+git push origin --tags
+git push origin --all
+git branch new-feature
+git checkout new-feature
+git add Sample3.txt Sample4.txt
+git commit
+git push origin --all
+git clone https://github.com/NickAmendola/Recitation-3308.git
+open README.md
+git commit
+git push origin --all
+cd Recitation-3308/
+git checkout master
+open README.md
+git commit
+git pull https://github.com/jacobjc/Recitation-3308.git
+open README.md
+git commit
+git push origin --all

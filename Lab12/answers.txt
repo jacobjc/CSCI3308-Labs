@@ -1,0 +1,3 @@
+Jacob Christiansen and Nick Vomund- Lab 12
+https://github.com/jacobjc/CU-CSCI3308-CIPractice
+https://travis-ci.org/jacobjc/CU-CSCI3308-CIPractice/branches

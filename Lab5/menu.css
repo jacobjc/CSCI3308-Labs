@@ -1,0 +1,72 @@
+/*Jacob Christiansen
+
+Changes Made:
+
+1. Fonts
+2. changed font color (info)
+3. changed color of box outlines
+4. changed boarder radius
+5. added background images
+*/
+
+div p{
+	font-size: 14px;
+}
+div h{
+	color: yellow;
+	font-size: 30px;
+}
+
+div{
+	font-family: Andale Mono, monospace;
+	color: orange;
+	border-radius: 44px;
+}
+
+#menu{
+position: fixed;
+float: left;
+width: 20%;
+border: 5px solid darkorange;
+padding: 10px;
+background-image: url(https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/wf-en-us/ctas/play/events/daytime/wf-daytime-pumpkinpatch-cta.jpg);
+}
+
+#item1{
+border: 2px solid orange;
+margin: 5px 5px 5px 0px;
+padding: 10px;
+background-color: yellow;
+opacity: 0.9;
+}
+#item2{
+border: 2px solid yellow;
+margin: 5px 5px 5px 0px;
+padding: 10px;
+background-color: orange;
+opacity: 0.9;
+}
+#item3{
+border: 2px solid orange;
+margin: 5px 5px 5px 0px;
+padding: 10px;
+background-color: yellow;
+opacity: 0.9;
+}
+#item4{
+border: 2px solid yellow;
+margin: 5px 5px 5px 0px;
+padding: 10px;
+background-color: orange;
+opacity: 0.9;
+}
+#info{
+	float: right;
+	width: 70%;
+	border: 5px solid darkorange;
+	background-image: url(https://i.gifer.com/6Gaf.gif)
+
+}
+body {
+    background-image: url(https://media1.tenor.com/images/d22964db75f806fc98b74271f05728de/tenor.gif?itemid=10134529);
+}
